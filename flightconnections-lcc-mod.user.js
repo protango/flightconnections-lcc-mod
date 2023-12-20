@@ -24,266 +24,664 @@
   */
 
   const budgetAirlines = [
-    "Air Arabia Egypt",
-    "Air Cairo",
-    "FlyEgypt",
-    "Jambojet",
-    "Fly540",
-    "Air Arabia Maroc",
-    "Green Africa Airways",
-    "FlySafair",
-    "Fastjet",
-    "Fastjet Zimbabwe",
-    "Flybondi",
-    "JetSmart Argentina",
-    "Azul Brazilian Airlines",
-    "Gol Transportes Aéreos",
-    "Air Canada Rouge",
-    "Canada Jetlines",
-    "Flair Airlines",
-    "Lynx Air",
-    "Sky Airline",
-    "JetSmart",
-    "Wingo",
-    "Clic Air",
-    "Volaris Costa Rica",
-    "Air Caraïbes",
-    "AraJet",
-    "RED Air",
-    "Volaris El Salvador",
-    "EasySky",
-    "Calafia Airlines",
-    "VivaAerobús",
-    "Volaris",
-    "JetSmart Perú",
-    "Sky Airline Peru",
-    "InterCaribbean Airways",
-    "Allegiant Air",
-    "Avelo Airlines",
-    "Breeze Airways",
-    "Frontier Airlines",
-    "JetBlue",
-    "Northern Pacific Airways",
-    "Southwest Airlines",
-    "Spirit Airlines",
-    "Sun Country Airlines",
-    "Fly Arna",
-    "FlyOne Armenia",
-    "Buta Airways",
-    "AirAsia Cambodia",
-    "9 Air",
-    "Beijing Capital Airlines",
-    "Chengdu Airlines",
-    "Colorful Guizhou Airlines",
-    "China United Airlines",
-    "Jiangxi Air",
-    "Lucky Air",
-    "Ruili Airlines",
-    "Spring Airlines",
-    "Urumqi Air",
-    "West Air",
-    "Greater Bay Airlines",
-    "HK Express",
-    "Air India Express",
-    "AIX Connect",
-    "Akasa Air",
-    "IndiGo",
-    "SpiceJet",
-    "Citilink",
-    "Indonesia AirAsia",
-    "Lion Air",
-    "Super Air Jet",
-    "TransNusa",
-    "Wings Air",
-    "Jetstar Japan",
-    "Peach Aviation",
-    "Skymark Airlines",
-    "Spring Airlines Japan",
-    "Zipair Tokyo",
-    "FlyArystan",
-    "Air Manas",
-    "Jazeera Airways",
-    "AirAsia",
-    "AirAsia X",
-    "Firefly",
-    "Salam Air",
-    "Airblue",
-    "Fly Jinnah",
-    "Serene Air",
-    "Air Sial",
-    "Cebu Pacific",
-    "Philippines AirAsia",
-    "Flynas",
-    "Flyadeal",
-    "Jetstar Asia Airways",
-    "Scoot",
-    "Air Busan",
-    "Air Premia",
-    "Air Seoul",
-    "Eastar Jet",
-    "Fly Gangwon",
-    "Jeju Air",
-    "Jin Air",
-    "T'way Air",
-    "Aero K",
-    "Tigerair Taiwan",
-    "Nok Air",
-    "Thai AirAsia",
-    "Thai AirAsia X",
-    "Thai Lion Air",
-    "Thai Summer Airways",
-    "Thai Vietjet Air",
-    "Air Arabia",
-    "Air Arabia Abu Dhabi",
-    "flydubai",
-    "Wizz Air Abu Dhabi",
-    "Pacific Airlines",
-    "VietJet Air",
-    "Albawings",
-    "EasyJet Europe",
-    "Eurowings Europe",
-    "Smartwings",
-    "French Bee",
-    "Transavia France",
-    "Eurowings",
-    "Wizz Air",
-    "Play",
-    "Ryanair",
-    "Aeroitalia",
-    "Malta Air",
-    "Lauda Europe",
-    "Wizz Air Malta",
-    "FlyOne",
-    "HiSky",
-    "Transavia",
-    "Norse Atlantic Airways",
-    "Norwegian Air Norway",
-    "Norwegian Air Shuttle",
-    "Buzz",
-    "Air Connect",
-    "Dan Air",
-    "Citrus",
-    "Pobeda",
-    "Smartavia",
-    "Air Europa Express",
-    "Iberia Express",
-    "Level",
-    "Volotea",
-    "Vueling",
-    "Norwegian Air Sweden",
-    "EasyJet Switzerland",
-    "Pegasus Airlines",
-    "AnadoluJet",
-    "SkyUp",
-    "EasyJet",
-    "Flypop",
-    "Jet2.com",
-    "Norse Atlantic UK",
-    "Ryanair UK",
-    "Wizz Air UK",
-    "Bonza",
-    "Jetstar Airways",
-    "Antinea Airlines",
-    "Ecoair International",
-    "Atlas Blue",
-    "Jet4you",
-    "Fastjet Mozambique",
-    "1time",
-    "Mango",
-    "Velvet Sky",
+    {
+      airlineName: "Air Arabia Egypt",
+      iataCode: "E5",
+    },
+    {
+      airlineName: "Air Cairo",
+      iataCode: "SM",
+    },
+    {
+      airlineName: "FlyEgypt",
+      iataCode: "FT",
+    },
+    {
+      airlineName: "Jambojet",
+      iataCode: "JM",
+    },
+    {
+      airlineName: "Fly540",
+      iataCode: "5G",
+    },
+    {
+      airlineName: "Air Arabia Maroc",
+      iataCode: "3O",
+    },
+    {
+      airlineName: "Green Africa Airways",
+      iataCode: "Q9",
+    },
+    {
+      airlineName: "FlySafair",
+      iataCode: "FA",
+    },
+    {
+      airlineName: "Fastjet",
+      iataCode: "FN",
+    },
+    {
+      airlineName: "Fastjet Zimbabwe",
+      iataCode: "FN",
+    },
+    {
+      airlineName: "Flybondi",
+      iataCode: "FO",
+    },
+    {
+      airlineName: "JetSmart Argentina",
+      iataCode: "WJ",
+    },
+    {
+      airlineName: "Azul Brazilian Airlines",
+      iataCode: "AD",
+    },
+    {
+      airlineName: "Gol Transportes Aéreos",
+      iataCode: "G3",
+    },
+    {
+      airlineName: "Air Canada Rouge",
+      iataCode: "RV",
+    },
+    {
+      airlineName: "Canada Jetlines",
+      iataCode: "AU",
+    },
+    {
+      airlineName: "Flair Airlines",
+      iataCode: "F8",
+    },
+    {
+      airlineName: "Lynx Air",
+      iataCode: "Y9",
+    },
+    {
+      airlineName: "Sky Airline",
+      iataCode: "H2",
+    },
+    {
+      airlineName: "JetSmart",
+      iataCode: "JA",
+    },
+    {
+      airlineName: "Wingo",
+      iataCode: "P5",
+    },
+    {
+      airlineName: "Clic Air",
+      iataCode: "VE",
+    },
+    {
+      airlineName: "Volaris Costa Rica",
+      iataCode: "Q6",
+    },
+    {
+      airlineName: "Air Caraïbes",
+      iataCode: "TX",
+    },
+    {
+      airlineName: "AraJet",
+      iataCode: "DM",
+    },
+    {
+      airlineName: "RED Air",
+      iataCode: "L5",
+    },
+    {
+      airlineName: "Volaris El Salvador",
+      iataCode: "N3",
+    },
+    {
+      airlineName: "EasySky",
+      iataCode: "",
+    },
+    {
+      airlineName: "Calafia Airlines",
+      iataCode: "A7",
+    },
+    {
+      airlineName: "VivaAerobús",
+      iataCode: "VB",
+    },
+    {
+      airlineName: "Volaris",
+      iataCode: "Y4",
+    },
+    {
+      airlineName: "JetSmart Perú",
+      iataCode: "JZ",
+    },
+    {
+      airlineName: "Sky Airline Peru",
+      iataCode: "H8",
+    },
+    {
+      airlineName: "InterCaribbean Airways",
+      iataCode: "JY",
+    },
+    {
+      airlineName: "Allegiant Air",
+      iataCode: "G4",
+    },
+    {
+      airlineName: "Avelo Airlines",
+      iataCode: "XP",
+    },
+    {
+      airlineName: "Breeze Airways",
+      iataCode: "MX",
+    },
+    {
+      airlineName: "Frontier Airlines",
+      iataCode: "F9",
+    },
+    {
+      airlineName: "JetBlue",
+      iataCode: "B6",
+    },
+    {
+      airlineName: "Northern Pacific Airways",
+      iataCode: "7H",
+    },
+    {
+      airlineName: "Southwest Airlines",
+      iataCode: "WN",
+    },
+    {
+      airlineName: "Spirit Airlines",
+      iataCode: "NK",
+    },
+    {
+      airlineName: "Sun Country Airlines",
+      iataCode: "SY",
+    },
+    {
+      airlineName: "Fly Arna",
+      iataCode: "G6",
+    },
+    {
+      airlineName: "FlyOne Armenia",
+      iataCode: "3F",
+    },
+    {
+      airlineName: "Buta Airways",
+      iataCode: "J2",
+    },
+    {
+      airlineName: "AirAsia Cambodia",
+      iataCode: "",
+    },
+    {
+      airlineName: "9 Air",
+      iataCode: "AQ",
+    },
+    {
+      airlineName: "Beijing Capital Airlines",
+      iataCode: "JD",
+    },
+    {
+      airlineName: "Chengdu Airlines",
+      iataCode: "EU",
+    },
+    {
+      airlineName: "Colorful Guizhou Airlines",
+      iataCode: "GY",
+    },
+    {
+      airlineName: "China United Airlines",
+      iataCode: "KN",
+    },
+    {
+      airlineName: "Jiangxi Air",
+      iataCode: "RY",
+    },
+    {
+      airlineName: "Lucky Air",
+      iataCode: "8L",
+    },
+    {
+      airlineName: "Ruili Airlines",
+      iataCode: "DR",
+    },
+    {
+      airlineName: "Spring Airlines",
+      iataCode: "9C",
+    },
+    {
+      airlineName: "Urumqi Air",
+      iataCode: "UQ",
+    },
+    {
+      airlineName: "West Air",
+      iataCode: "PN",
+    },
+    {
+      airlineName: "Greater Bay Airlines",
+      iataCode: "HB",
+    },
+    {
+      airlineName: "HK Express",
+      iataCode: "UO",
+    },
+    {
+      airlineName: "Air India Express",
+      iataCode: "IX",
+    },
+    {
+      airlineName: "AIX Connect",
+      iataCode: "I5",
+    },
+    {
+      airlineName: "Akasa Air",
+      iataCode: "QP",
+    },
+    {
+      airlineName: "IndiGo",
+      iataCode: "6E",
+    },
+    {
+      airlineName: "SpiceJet",
+      iataCode: "SG",
+    },
+    {
+      airlineName: "Citilink",
+      iataCode: "QG",
+    },
+    {
+      airlineName: "Indonesia AirAsia",
+      iataCode: "QZ",
+    },
+    {
+      airlineName: "Lion Air",
+      iataCode: "JT",
+    },
+    {
+      airlineName: "Super Air Jet",
+      iataCode: "IU",
+    },
+    {
+      airlineName: "TransNusa",
+      iataCode: "8B",
+    },
+    {
+      airlineName: "Wings Air",
+      iataCode: "IW",
+    },
+    {
+      airlineName: "Jetstar Japan",
+      iataCode: "GK",
+    },
+    {
+      airlineName: "Peach Aviation",
+      iataCode: "MM",
+    },
+    {
+      airlineName: "Skymark Airlines",
+      iataCode: "BC",
+    },
+    {
+      airlineName: "Spring Airlines Japan",
+      iataCode: "IJ",
+    },
+    {
+      airlineName: "Zipair Tokyo",
+      iataCode: "ZG",
+    },
+    {
+      airlineName: "FlyArystan",
+      iataCode: "KC",
+    },
+    {
+      airlineName: "Air Manas",
+      iataCode: "ZM",
+    },
+    {
+      airlineName: "Jazeera Airways",
+      iataCode: "J9",
+    },
+    {
+      airlineName: "AirAsia",
+      iataCode: "AK",
+    },
+    {
+      airlineName: "AirAsia X",
+      iataCode: "D7",
+    },
+    {
+      airlineName: "Firefly",
+      iataCode: "FY",
+    },
+    {
+      airlineName: "Salam Air",
+      iataCode: "OV",
+    },
+    {
+      airlineName: "Airblue",
+      iataCode: "PA",
+    },
+    {
+      airlineName: "Fly Jinnah",
+      iataCode: "9P",
+    },
+    {
+      airlineName: "Serene Air",
+      iataCode: "ER",
+    },
+    {
+      airlineName: "Air Sial",
+      iataCode: "PF",
+    },
+    {
+      airlineName: "Cebu Pacific",
+      iataCode: "5J",
+    },
+    {
+      airlineName: "Philippines AirAsia",
+      iataCode: "Z2",
+    },
+    {
+      airlineName: "Flynas",
+      iataCode: "XY",
+    },
+    {
+      airlineName: "Flyadeal",
+      iataCode: "F3",
+    },
+    {
+      airlineName: "Jetstar Asia Airways",
+      iataCode: "3K",
+    },
+    {
+      airlineName: "Scoot",
+      iataCode: "TR",
+    },
+    {
+      airlineName: "Air Busan",
+      iataCode: "BX",
+    },
+    {
+      airlineName: "Air Premia",
+      iataCode: "YP",
+    },
+    {
+      airlineName: "Air Seoul",
+      iataCode: "RS",
+    },
+    {
+      airlineName: "Eastar Jet",
+      iataCode: "ZE",
+    },
+    {
+      airlineName: "Fly Gangwon",
+      iataCode: "4V",
+    },
+    {
+      airlineName: "Jeju Air",
+      iataCode: "7C",
+    },
+    {
+      airlineName: "Jin Air",
+      iataCode: "LJ",
+    },
+    {
+      airlineName: "T'way Air",
+      iataCode: "TW",
+    },
+    {
+      airlineName: "Aero K",
+      iataCode: "RF",
+    },
+    {
+      airlineName: "Tigerair Taiwan",
+      iataCode: "IT",
+    },
+    {
+      airlineName: "Nok Air",
+      iataCode: "DD",
+    },
+    {
+      airlineName: "Thai AirAsia",
+      iataCode: "FD",
+    },
+    {
+      airlineName: "Thai AirAsia X",
+      iataCode: "XJ",
+    },
+    {
+      airlineName: "Thai Lion Air",
+      iataCode: "SL",
+    },
+    {
+      airlineName: "Thai Summer Airways",
+      iataCode: "9T",
+    },
+    {
+      airlineName: "Thai Vietjet Air",
+      iataCode: "VZ",
+    },
+    {
+      airlineName: "Air Arabia",
+      iataCode: "G9",
+    },
+    {
+      airlineName: "Air Arabia Abu Dhabi",
+      iataCode: "3L",
+    },
+    {
+      airlineName: "flydubai",
+      iataCode: "FZ",
+    },
+    {
+      airlineName: "Wizz Air Abu Dhabi",
+      iataCode: "5W",
+    },
+    {
+      airlineName: "Pacific Airlines",
+      iataCode: "BL",
+    },
+    {
+      airlineName: "VietJet Air",
+      iataCode: "VJ",
+    },
+    {
+      airlineName: "Albawings",
+      iataCode: "2B",
+    },
+    {
+      airlineName: "EasyJet Europe",
+      iataCode: "EC",
+    },
+    {
+      airlineName: "Eurowings Europe",
+      iataCode: "E6",
+    },
+    {
+      airlineName: "Smartwings",
+      iataCode: "QS",
+    },
+    {
+      airlineName: "French Bee",
+      iataCode: "BF",
+    },
+    {
+      airlineName: "Transavia France",
+      iataCode: "TO",
+    },
+    {
+      airlineName: "Eurowings",
+      iataCode: "EW",
+    },
+    {
+      airlineName: "Wizz Air",
+      iataCode: "W6",
+    },
+    {
+      airlineName: "Play",
+      iataCode: "OG",
+    },
+    {
+      airlineName: "Ryanair",
+      iataCode: "FR",
+    },
+    {
+      airlineName: "Aeroitalia",
+      iataCode: "XZ",
+    },
+    {
+      airlineName: "Malta Air",
+      iataCode: "AL",
+    },
+    {
+      airlineName: "Lauda Europe",
+      iataCode: "LW",
+    },
+    {
+      airlineName: "Wizz Air Malta",
+      iataCode: "W4",
+    },
+    {
+      airlineName: "FlyOne",
+      iataCode: "5F",
+    },
+    {
+      airlineName: "HiSky",
+      iataCode: "H4",
+    },
+    {
+      airlineName: "Transavia",
+      iataCode: "TO",
+    },
+    {
+      airlineName: "Norse Atlantic Airways",
+      iataCode: "N0",
+    },
+    {
+      airlineName: "Norwegian Air Norway",
+      iataCode: "DH",
+    },
+    {
+      airlineName: "Norwegian Air Shuttle",
+      iataCode: "DY",
+    },
+    {
+      airlineName: "Buzz",
+      iataCode: "RR",
+    },
+    {
+      airlineName: "Air Connect",
+      iataCode: "KS",
+    },
+    {
+      airlineName: "Dan Air",
+      iataCode: "DN",
+    },
+    {
+      airlineName: "Citrus",
+      iataCode: "XT",
+    },
+    {
+      airlineName: "Pobeda",
+      iataCode: "DP",
+    },
+    {
+      airlineName: "Smartavia",
+      iataCode: "5N",
+    },
+    {
+      airlineName: "Air Europa Express",
+      iataCode: "X5",
+    },
+    {
+      airlineName: "Iberia Express",
+      iataCode: "I2",
+    },
+    {
+      airlineName: "Level",
+      iataCode: "VK",
+    },
+    {
+      airlineName: "Volotea",
+      iataCode: "V7",
+    },
+    {
+      airlineName: "Vueling",
+      iataCode: "VY",
+    },
+    {
+      airlineName: "Norwegian Air Sweden",
+      iataCode: "D8",
+    },
+    {
+      airlineName: "EasyJet Switzerland",
+      iataCode: "DS",
+    },
+    {
+      airlineName: "Pegasus Airlines",
+      iataCode: "PC",
+    },
+    {
+      airlineName: "AnadoluJet",
+      iataCode: "TK",
+    },
+    {
+      airlineName: "SkyUp",
+      iataCode: "PQ",
+    },
+    {
+      airlineName: "EasyJet",
+      iataCode: "U2",
+    },
+    {
+      airlineName: "Flypop",
+      iataCode: "",
+    },
+    {
+      airlineName: "Jet2.com",
+      iataCode: "LS",
+    },
+    {
+      airlineName: "Norse Atlantic UK",
+      iataCode: "Z0",
+    },
+    {
+      airlineName: "Ryanair UK",
+      iataCode: "RK",
+    },
+    {
+      airlineName: "Wizz Air UK",
+      iataCode: "W9",
+    },
+    {
+      airlineName: "Bonza",
+      iataCode: "AB",
+    },
+    {
+      airlineName: "Jetstar Airways",
+      iataCode: "JQ",
+    },
   ];
-
-  const budgetExceptions = new Set([
-    'Iberia (IB)',
-    'United Airlines (UA)',
-    'Air Canada (AC)'
-  ]);
-  // const budgetAirlines = ['qantas'];
 
   await waitForElem(".alliance-options");
 
   /** @type {HTMLAnchorElement[]} */
   const allOptions = [...document.querySelectorAll(".all-airline-options>a")];
 
-  const bannedKeywords = new Set([
-    "airline",
-    "airlines",
-    "airways",
-    "air",
-    "el",
-  ]);
   /** @type {Set<HTMLAnchorElement>} */
   const budgetAirlineAnchors = new Set();
 
   for (const budgetAirline of budgetAirlines) {
-    const procBudget = budgetAirline
-      .trim()
-      .toLowerCase()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/[^\w\s]/g, "");
-    const budgetWords = new Set(procBudget.split(" "));
-    const budgetWordsNoBanned = new Set(
-      [...budgetWords].filter((x) => !bannedKeywords.has(x))
+    const airline = allOptions.find((x) =>
+      x.innerText.endsWith(`(${budgetAirline.iataCode})`)
     );
 
-    let hits = [""].slice(0, 0);
-    for (const option of allOptions) {
-      if (budgetExceptions.has(option.innerText)) {
-        continue;
-      }
-      // strip suffix "... (XX)" from option
-      const procOption = option.innerText
-        .replace(/\s*\(\w+\)\s*$/, "")
-        .trim()
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/[^\w\s]/g, "");
-
-      // First check for exact match
-      if (procOption === procBudget) {
-        budgetAirlineAnchors.add(option);
-        hits.push(option.innerText);
-        continue;
-      }
-
-      // Then check for partial match (2 or more words in common) without banned keywords
-      const procWords = new Set(procOption.split(" "));
-      const procWordsNoBanned = new Set(
-        [...procWords].filter((x) => !bannedKeywords.has(x))
+    if (airline) {
+      budgetAirlineAnchors.add(airline);
+    } else {
+      console.warn(
+        `Could not find airline ${budgetAirline.airlineName} (${budgetAirline.iataCode})`
       );
-      const intersectionNoBanned = new Set(
-        [...procWordsNoBanned].filter((x) => budgetWordsNoBanned.has(x))
-      );
-      if (intersectionNoBanned.size >= 2) {
-        budgetAirlineAnchors.add(option);
-        hits.push(option.innerText);
-        continue;
-      }
-
-      // Lastly, we handle the case where the budget airline is a substring of the option or vice versa
-      // We mark the word voundaries in each string to ensure that we don't match substrings of words
-      const procBudgetWithBoundaries = procBudget.replace(/\b/g, "\t\t");
-      const procOptionWithBoundaries = procOption.replace(/\b/g, "\t\t");
-      if (
-        procBudgetWithBoundaries.includes(procOptionWithBoundaries) ||
-        procOptionWithBoundaries.includes(procBudgetWithBoundaries)
-      ) {
-        budgetAirlineAnchors.add(option);
-        hits.push(option.innerText);
-        continue;
-      }
     }
-
-    /*
-      if (hits.length === 0) {
-        console.log(`No match for ${budgetAirline}`);
-      }
-      if (hits.length > 1) {
-        console.log(`Multiple matches for ${budgetAirline}`);
-      }
-      */
   }
 
   // Create the budget alliance

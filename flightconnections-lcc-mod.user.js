@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         FlightConnections Low Cost Carrier Mod
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/protango/flightconnections-lcc-mod
 // @version      1.0
 // @description  Add a low cost carrier selector to flight connections
 // @author       protango

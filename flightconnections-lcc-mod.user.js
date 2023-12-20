@@ -622,7 +622,7 @@
     },
     {
       airlineName: "AnadoluJet",
-      iataCode: "TK",
+      iataCode: "",
     },
     {
       airlineName: "SkyUp",

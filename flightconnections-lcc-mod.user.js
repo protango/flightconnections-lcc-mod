@@ -1,14 +1,17 @@
 // ==UserScript==
-// @name         Flight Connections value airlines
+// @name         FlightConnections Low Cost Carrier Mod
 // @namespace    http://tampermonkey.net/
-// @version      2023-12-19
-// @description  Add a value airlines selector to flight connections
-// @author       You
+// @version      1.0
+// @description  Add a low cost carrier selector to flight connections
+// @author       protango
 // @match        https://www.flightconnections.com/*
 // @exclude      /flights.php
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=flightconnections.com
 // @grant        none
 // @require      https://raw.githubusercontent.com/protango/UserScriptAutomationToolbox/master/waitFor.js
+// @updateURL    https://github.com/protango/flightconnections-lcc-mod/raw/master/flightconnections-lcc-mod.user.js
+// @downloadURL  https://github.com/protango/flightconnections-lcc-mod/raw/master/flightconnections-lcc-mod.user.js
+
 // ==/UserScript==
 
 (async function () {

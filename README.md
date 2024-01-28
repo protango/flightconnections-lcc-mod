@@ -8,3 +8,4 @@
 
 **Note:** This mod is has been independently developed to extend the capabilities of FlightConnections, it is not affiliated with, or endorsed by FlightConnections.
 
+[Click here to install](https://github.com/protango/flightconnections-lcc-mod/blob/main/flightconnections-lcc-mod.user.js) (requires tampermonkey extension)

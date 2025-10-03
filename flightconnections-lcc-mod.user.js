@@ -715,7 +715,7 @@
   $.ajax = function (...params) {
     const fakeResult = (() => {
       const e = params[0];
-      const url = new URL(e.url);
+      const url = new URL(e.url, window.location.href);
 
       if (e.type === "GET" && url.pathname === "/filter_al_99.json") {
         url.pathname = `/filter_ar_${
